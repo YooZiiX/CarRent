@@ -17,7 +17,7 @@ const Navbar = () => {
             className="object-contain"
           />
         </Link>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center gap-3">
           <CustomButton
             title="Sign In"
             btnType="button"
