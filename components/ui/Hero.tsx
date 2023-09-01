@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import HeroImage from "@/public/hero.png";
-import CustomButton from "./ui/CustomButton";
+import CustomButton from "./CustomButton";
 
 const Hero = () => {
   const handleScroll = () => {};
