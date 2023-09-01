@@ -4,5 +4,14 @@ import Footer from "./ui/Footer";
 import CustomButton from "./ui/CustomButton";
 import SearchBar from "./ui/SearchBar";
 import CustomFilter from "./ui/CustomFilter";
+import SearchManufacturer from "./ui/SearchManufacturer";
 
-export { Hero, Navbar, Footer, CustomButton, SearchBar, CustomFilter };
+export {
+  Hero,
+  Navbar,
+  Footer,
+  CustomButton,
+  SearchBar,
+  SearchManufacturer,
+  CustomFilter,
+};
