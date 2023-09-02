@@ -8,7 +8,7 @@ import TireImg from "@/public/tire.svg";
 import GasImg from "@/public/gas.svg";
 import Arrow from "@/public/right-arrow.svg";
 import CustomButton from "./CustomButton";
-import { calculateCarRent } from "@/utils";
+import { calculateCarRent, generateCarImageUrl } from "@/utils";
 import { CarDetails } from "..";
 
 interface CarCardProps {
@@ -35,7 +35,7 @@ const CarCard = ({ car }: CarCardProps) => {
 
       <div className="relative w-full h-40 my-3 object-contain">
         <Image
-          src={HeroImage}
+          src={generateCarImageUrl(car)}
           alt="car model"
           fill
           priority
