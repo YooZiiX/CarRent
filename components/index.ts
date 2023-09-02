@@ -4,6 +4,7 @@ import Footer from "./ui/Footer";
 import CustomButton from "./ui/CustomButton";
 import SearchBar from "./ui/SearchBar";
 import CustomFilter from "./ui/CustomFilter";
+import CarCard from "./ui/CarCard";
 import SearchManufacturer from "./ui/SearchManufacturer";
 
 export {
@@ -13,5 +14,6 @@ export {
   CustomButton,
   SearchBar,
   SearchManufacturer,
+  CarCard,
   CustomFilter,
 };
