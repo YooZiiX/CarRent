@@ -104,10 +104,10 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
                           key={key}
                         >
                           <h4 className="text-gray capitalize">
-                            {key.split("-").join(" ")}
+                            {key.split("_").join(" ")}
                           </h4>
                           <p className="text-black-100 font-semibold">
-                            {value}
+                            {value.toString().toUpperCase()}
                           </p>
                         </div>
                       ))}
