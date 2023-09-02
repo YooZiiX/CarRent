@@ -4,7 +4,6 @@ import { Fragment } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import Image from "next/image";
 import Close from "@/public/close.svg";
-import HeroImage from "@/public/hero.png";
 import { generateCarImageUrl } from "@/utils";
 
 interface CarDetailsProps {

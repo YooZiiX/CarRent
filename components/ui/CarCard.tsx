@@ -2,7 +2,6 @@
 import { CarProps } from "@/types";
 import { useState } from "react";
 import Image from "next/image";
-import HeroImage from "@/public/hero.png";
 import SteeringWheel from "@/public/steering-wheel.svg";
 import TireImg from "@/public/tire.svg";
 import GasImg from "@/public/gas.svg";
