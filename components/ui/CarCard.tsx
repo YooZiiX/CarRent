@@ -9,6 +9,7 @@ import GasImg from "@/public/gas.svg";
 import Arrow from "@/public/right-arrow.svg";
 import CustomButton from "./CustomButton";
 import { calculateCarRent } from "@/utils";
+import { CarDetails } from "..";
 
 interface CarCardProps {
   car: CarProps;
@@ -73,6 +74,7 @@ const CarCard = ({ car }: CarCardProps) => {
           />
         </div>
       </div>
+      <CarDetails />
     </div>
   );
 };
