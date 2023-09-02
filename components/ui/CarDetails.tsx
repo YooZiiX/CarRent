@@ -4,6 +4,7 @@ import { Fragment } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import Image from "next/image";
 import Close from "@/public/close.svg";
+import HeroImage from "@/public/hero.png";
 
 interface CarDetailsProps {
   isOpen: boolean;
@@ -53,8 +54,46 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
                     />
                   </button>
                   <div className="flex-1 flex flex-col gap-3">
-                    <div className="relative w-full h-40 bg-pattern bg-cover bg-center rounded-lg"></div>
-                  </div>
+                    <div className="relative w-full h-40 bg-pattern bg-cover bg-center rounded-lg">
+                      <Image
+                        src={HeroImage}
+                        alt="car model"
+                        fill
+                        priority
+                        className="object-contain"
+                      />
+                    </div>
+                    <div className="flex gap-3">
+                      <div className="flex-1 relative w-full h-24 bg-primary-blue-100 rounded-lg">
+                        <Image
+                          src={HeroImage}
+                          alt="car model"
+                          fill
+                          priority
+                          className="object-contain"
+                        />
+                      </div>
+                      <div className="flex-1 relative w-full h-24 bg-primary-blue-100 rounded-lg">
+                        <Image
+                          src={HeroImage}
+                          alt="car model"
+                          fill
+                          priority
+                          className="object-contain"
+                        />
+                      </div>
+                      <div className="flex-1 relative w-full h-24 bg-primary-blue-100 rounded-lg">
+                        <Image
+                          src={HeroImage}
+                          alt="car model"
+                          fill
+                          priority
+                          className="object-contain"
+                        />
+                      </div>
+                    </div>
+                                  </div>
+                                  <div className="flex-1 flex flex-col gap-2"
                 </Dialog.Panel>
               </Transition.Child>
             </div>
