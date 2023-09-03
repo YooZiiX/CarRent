@@ -1,7 +1,6 @@
 import Image from "next/image";
-import Link from "next/link";
-
 import CustomButton from "./CustomButton";
+import Link from "next/link";
 import Logo from "@/public/logo.svg";
 
 const Navbar = () => {

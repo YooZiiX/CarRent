@@ -1,9 +1,10 @@
 "use client";
+
 import { ShowMoreProps } from "@/types";
-import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { CustomButton } from "..";
 import { updateSearchParams } from "@/utils";
+import Image from "next/image";
 
 const ShowMore = ({ pageNumber, isNext }: ShowMoreProps) => {
   const router = useRouter();

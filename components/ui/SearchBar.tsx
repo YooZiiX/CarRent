@@ -1,11 +1,11 @@
 "use client";
 
-import Image from "next/image";
 import { useRouter } from "next/navigation";
+import { SearchManufacturer } from "..";
+import Image from "next/image";
 import React from "react";
 import SearchLogo from "@/public/magnifying-glass.svg";
 import ModelIcon from "@/public/model-icon.png";
-import { SearchManufacturer } from "..";
 
 import { useState } from "react";
 

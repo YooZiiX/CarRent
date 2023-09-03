@@ -1,14 +1,15 @@
 "use client";
+
 import { CarProps } from "@/types";
 import { useState } from "react";
-import Image from "next/image";
-import SteeringWheel from "@/public/steering-wheel.svg";
-import TireImg from "@/public/tire.svg";
-import GasImg from "@/public/gas.svg";
-import Arrow from "@/public/right-arrow.svg";
-import CustomButton from "./CustomButton";
 import { calculateCarRent, generateCarImageUrl } from "@/utils";
 import { CarDetails } from "..";
+import Image from "next/image";
+import Arrow from "@/public/right-arrow.svg";
+import CustomButton from "./CustomButton";
+import GasImg from "@/public/gas.svg";
+import SteeringWheel from "@/public/steering-wheel.svg";
+import TireImg from "@/public/tire.svg";
 
 interface CarCardProps {
   car: CarProps;

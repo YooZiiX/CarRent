@@ -1,4 +1,5 @@
 "use client";
+
 import { useState, Fragment } from "react";
 import { SearchManufacturerProps } from "@/types";
 import { Combobox, Transition } from "@headlessui/react";

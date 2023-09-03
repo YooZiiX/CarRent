@@ -2,11 +2,11 @@
 
 import { CustomFilterProps } from "@/types";
 import { Fragment, useState } from "react";
-import Image from "next/image";
-import FilterImg from "@/public/chevron-up-down.svg";
 import { useRouter } from "next/navigation";
 import { Listbox, Transition } from "@headlessui/react";
 import { updateSearchParams } from "@/utils";
+import Image from "next/image";
+import FilterImg from "@/public/chevron-up-down.svg";
 
 const CustomFilter = ({ title, options }: CustomFilterProps) => {
   const router = useRouter();

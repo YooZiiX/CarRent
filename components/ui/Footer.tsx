@@ -1,9 +1,7 @@
+import { footerLinks } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
-
 import Logo from "@/public/logo.svg";
-import { footerLinks } from "@/constants";
-import { link } from "fs";
 
 const Footer = () => {
   return (
