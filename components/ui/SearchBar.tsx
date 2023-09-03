@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import React from "react";
 import SearchLogo from "@/public/magnifying-glass.svg";
 import ModelIcon from "@/public/model-icon.png";
 import { SearchManufacturer } from "..";
@@ -23,32 +24,34 @@ const SearchBar = () => {
   const [manufacturer, setManufacturer] = useState("");
   const [model, setModel] = useState("");
 
-  const handleSubmit = () => {
-    console.log("");
+  const handleSearch = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    if (manufacturer === "" && model === "")
+      return alert("Please, fill in the search bar");
   };
   return (
-    <form className="searchbar" onSubmit={handleSubmit}>
+    <form className="searchbar" onSubmit={handleSearch}>
       <div className="searchbar__item">
         <SearchManufacturer
           manufacturer={manufacturer}
           setManufacturer={setManufacturer}
         />
-        <SearchButton otherClasses="sm:hiden" />
+        <SearchButton otherClasses="sm:hidden" />
       </div>
       <div className="searchbar__item">
         <Image
           src={ModelIcon}
-          alt="car model"
           width={25}
           height={25}
           className="absolute w-[20px] h-[20px] ml-4"
+          alt="car model"
         />
         <input
           type="text"
           name="model"
           value={model}
           onChange={(e) => setModel(e.target.value)}
-          placeholder="Tiguan"
+          placeholder="Tiguan..."
           className="searchbar__input"
         />
         <SearchButton otherClasses="sm:hidden" />
