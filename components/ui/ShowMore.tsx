@@ -3,10 +3,18 @@ import { ShowMoreProps } from "@/types";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { CustomButton } from "..";
+import { updateSearchParams } from "@/utils";
 
 const ShowMore = ({ pageNumber, isNext }: ShowMoreProps) => {
   const router = useRouter();
-  const handleNavigation = () => {};
+  const handleNavigation = () => {
+    const newLimit = (pageNumber + 1) * 10;
+    const newPathname = updateSearchParams(
+      "limit",
+      String(newLimit) || `${newLimit}`
+    );
+    router.push(newPathname);
+  };
   return (
     <div className="w-full flex-center gap-5 mt-10">
       {!isNext && (
