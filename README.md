@@ -7,6 +7,8 @@ But also to learn <b>TypeScript</b>.
 
 I followed the [<b>JavaScript Mastery</b>](https://www.youtube.com/@javascriptmastery)'s [<b>YouTube video</b>](https://youtu.be/pUNSHPyVryU?si=3y4dQ9sSKVkrDBGU), taking a few liberties.
 
+## Functionalities
+
 The functionalities implemented in this project are as follows :
 
 - Advanced Search Functionality
