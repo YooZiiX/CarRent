@@ -5,7 +5,7 @@ This is a [<b>Next.js</b>](https://nextjs.org/) project using different librairy
 The main goal of this project is to practice the new <b>Server-side Rendering</b> and <b>App Router</b> from [<b>Next.js</b>](https://nextjs.org/) Application.
 But also to learn <b>TypeScript</b>.
 
-I followed the [JavaScript Mastery](https://www.youtube.com/@javascriptmastery)'s [YouTube video](https://youtu.be/pUNSHPyVryU?si=3y4dQ9sSKVkrDBGU), taking a few liberties.
+I followed the [<b>JavaScript Mastery</b>](https://www.youtube.com/@javascriptmastery)'s [<b>YouTube video</b>](https://youtu.be/pUNSHPyVryU?si=3y4dQ9sSKVkrDBGU), taking a few liberties.
 
 The functionalities implemented in this project are as follows :
 
