@@ -1,10 +1,11 @@
 # CarRent
 
-This is a [Next.js](https://nextjs.org/) project using different librairy such as [React](https://react.dev/) and [TailwindCSS](https://tailwindcss.com/) to build a Car Rental Application.
+This is a [<b>Next.js</b>](https://nextjs.org/) project using different librairy such as [<b>React</b>](https://react.dev/) and [<b>TailwindCSS</b>](https://tailwindcss.com/) to build a Car Rental Application.
 
-The main goal of this project is to practice the new Server-side Rendering and App Router from [Next.js](https://nextjs.org/) Application.
+The main goal of this project is to practice the new <b>Server-side Rendering</b> and <b>App Router</b> from [<b>Next.js</b>](https://nextjs.org/) Application.
+But also to learn <b>TypeScript</b>.
 
-I Followed the [JavaScript Mastery](https://www.youtube.com/@javascriptmastery)'s [YouTube video](https://youtu.be/pUNSHPyVryU?si=3y4dQ9sSKVkrDBGU), taking a few liberties.
+I followed the [JavaScript Mastery](https://www.youtube.com/@javascriptmastery)'s [YouTube video](https://youtu.be/pUNSHPyVryU?si=3y4dQ9sSKVkrDBGU), taking a few liberties.
 
 The functionalities implemented in this project are as follows :
 
