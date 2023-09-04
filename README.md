@@ -21,3 +21,7 @@ The next functionalities to be implemented are <b>User authentification</b>, <b>
 ## Various pages
 
 Currently, there is only a Landing page with the display of cars, which are the results of searches and filters.
+
+## ENV File example (./.env)
+
+> RapidAPIKey=<i>your code</i>
