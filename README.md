@@ -13,4 +13,6 @@ The functionalities implemented in this project are as follows :
 - Optimize Metadata and SEO
 - Custom Button, Combobox, and Modal Element
 
-I achieved this thanks to a well-organized project and used the principles of clean code writing.
+I achieved this thanks to a <b>well-organized project</b> and used the principles of <b>clean code writing</b>.
+
+The next functionalities to be implemented are <b>User authentification</b>, <b>Rental system</b>, etc.
