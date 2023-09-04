@@ -24,4 +24,4 @@ Currently, there is only a Landing page with the display of cars, which are the 
 
 ## ENV File example (./.env)
 
-> RapidAPIKey=<i>your code</i>
+> RapidAPIKey=<i><b>your code</b></i>
