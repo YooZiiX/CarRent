@@ -4,6 +4,8 @@ This is a [Next.js](https://nextjs.org/) project using different librairy such a
 
 The main goal of this project is to practice the new Server-side Rendering and App Router from [Next.js](https://nextjs.org/) Application.
 
+I Followed the [JavaScript Mastery](https://www.youtube.com/@javascriptmastery)'s [YouTube video](https://youtu.be/pUNSHPyVryU?si=3y4dQ9sSKVkrDBGU), taking a few liberties.
+
 The functionalities implemented in this project are as follows :
 
 - Advanced Search Functionality
