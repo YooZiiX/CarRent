@@ -17,3 +17,7 @@ The functionalities implemented in this project are as follows :
 I achieved this thanks to a <b>well-organized project</b> and used the principles of <b>clean code writing</b>.
 
 The next functionalities to be implemented are <b>User authentification</b>, <b>Rental system</b>, etc.
+
+## Various pages
+
+Currently, there is only a Landing page with the display of cars, which are the results of searches and filters.
