@@ -24,4 +24,5 @@ Currently, there is only a Landing page with the display of cars, which are the 
 
 ## ENV File example (./.env)
 
-> RapidAPIKey = [<i><b>your code</b></i>](https://rapidapi.com/apininjas/api/cars-by-api-ninjas)
+> RapidAPIKey = [<i><b>your key</b></i>](https://rapidapi.com/apininjas/api/cars-by-api-ninjas)
+> IMAGINCustomerKey = <i><b>your key</b></i>
