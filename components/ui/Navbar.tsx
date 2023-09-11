@@ -17,16 +17,20 @@ const Navbar = () => {
           />
         </Link>
         <div className="flex justify-center items-center gap-3">
-          <CustomButton
-            title="Sign In"
-            btnType="button"
-            containerStyles="text-primary-blue rounded-full bg-white min-w-[130px]"
-          />
-          <CustomButton
-            title="Log In"
-            btnType="button"
-            containerStyles="bg-primary-blue text-white rounded-full min-w-[130px]"
-          />
+          <Link href="/signup">
+            <CustomButton
+              title="Sign In"
+              btnType="button"
+              containerStyles="text-primary-blue rounded-full bg-white min-w-[130px]"
+            />
+          </Link>
+          <Link href="/login">
+            <CustomButton
+              title="Log In"
+              btnType="button"
+              containerStyles="bg-primary-blue text-white rounded-full min-w-[130px]"
+            />
+          </Link>
         </div>
       </nav>
     </header>
